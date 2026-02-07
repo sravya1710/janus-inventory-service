@@ -1,4 +1,8 @@
 package com.janus.inventory.repository;
 
-public interface ProductRepository {
+import com.janus.inventory.model.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface ProductRepository  extends JpaRepository<Product, Long> {
+
 }

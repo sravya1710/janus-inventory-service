@@ -64,21 +64,25 @@ This leads to:
 ---
 
 ## Repository Structure
-janus-platform
+janus-platform/
 │
-├── inventory-service
-│ └── Inventory Ledger Microservice
+├── inventory-service/
+│   ├── Inventory Ledger Microservice
+│   └── (owns inventory, products, warehouses, transactions)
 │
-├── forecasting-service (planned)
-├── replenishment-service (planned)
-├── notification-service (planned)
+├── forecasting-service/        (planned)
+│   └── Demand forecasting & seasonality models
 │
-├── shared-docs
-│ ├── architecture.md
-│ ├── api-contracts.md
+├── replenishment-service/      (planned)
+│   └── Reorder point & EOQ optimization
 │
-└── README.md
-
+├── notification-service/       (planned)
+│   └── Alerts via Email / Slack / SMS
+│
+├── shared-docs/
+│   ├── architecture.md
+│   ├── api-contracts.md
+│   └── README.md
 
 
 Each microservice is:

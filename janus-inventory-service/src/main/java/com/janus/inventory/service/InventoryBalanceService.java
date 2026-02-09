@@ -1,4 +1,4 @@
 package com.janus.inventory.service;
 
-public class InventoryLedgerService {
+public class InventoryBalanceService {
 }

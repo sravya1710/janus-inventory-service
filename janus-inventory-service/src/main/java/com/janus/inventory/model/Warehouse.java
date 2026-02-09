@@ -1,6 +1,7 @@
 package com.janus.inventory.model;
 
 import jakarta.persistence.*;
+import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
@@ -34,11 +35,12 @@ public class Warehouse {
     @Size(max=100)
     private String country;
 
-    @Size(max=10)
+
     private Long zip;
 
     @Size(max=50)
     @NotNull
+    @Valid
     private String code;
 
 

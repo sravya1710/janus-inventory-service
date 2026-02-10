@@ -70,15 +70,19 @@ janus-platform/
 │   ├── Inventory Ledger Microservice
 │   └── (owns inventory, products, warehouses, transactions)
 │
+|
 ├── forecasting-service/        (planned)
 │   └── Demand forecasting & seasonality models
 │
+|
 ├── replenishment-service/      (planned)
 │   └── Reorder point & EOQ optimization
 │
+|
 ├── notification-service/       (planned)
 │   └── Alerts via Email / Slack / SMS
 │
+|
 ├── shared-docs/
 │   ├── architecture.md
 │   ├── api-contracts.md
